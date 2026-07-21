@@ -1,3 +1,14 @@
+/*
+======================================================================================================================================
+Initialize the database DataWarehouse.
+
+The script delete the database named 'DataWarehouse' if it exists, 
+recreate it and creates the schemas 'bronze', 'silver' & 'gold' for the different layers.
+
+WARNING : Execute this script will delete all data that is inside the database permenentaly.
+======================================================================================================================================
+*/
+
 -- create database
 
 USE master;
