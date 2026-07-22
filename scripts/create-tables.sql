@@ -1,3 +1,16 @@
+/*
+==============================================================================================
+Creates table for the bronze layer.
+
+This script remove all existing bronze tables and 
+then creates them with no obligatory attributes.
+
+WARNING : Executing this script will delete permenentaly 
+all data contained insinde the bronze layer tables!
+==============================================================================================s
+*/
+
+
 USE DataWarehouse
 GO
 DROP TABLE IF EXISTS bronze.crm_cust_info 
