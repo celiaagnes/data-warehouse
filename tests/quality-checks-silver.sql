@@ -1,8 +1,6 @@
--- Quality Check : check for nulls and duplicates in primary key
--- Expectation : no result
-
-
-
+/*
+This script is for checking the quality of the data inserted into the silver layer.
+*/
 -- #### Table crm_cust_info ####
 
 /*SELECT * from silver.crm_cust_info */
