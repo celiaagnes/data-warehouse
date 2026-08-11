@@ -228,6 +228,15 @@ BEGIN
 		FROM bronze.erp_cust_az12 
 
 		-- erp_loc_a101
+		PRINT char(10) +'>> Truncating Table : silver.erp_loc_a101';
+		SET @start_time = GETDATE();
+		TRUNCATE TABLE silver.erp_loc_a101
+		SET @end_time = GETDATE();
+		PRINT 'Time : ' + CAST (DATEDIFF ( millisecond , @start_time , @end_time ) AS NVARCHAR) + ' ms';
+
+
+		PRINT char(10) +'>> Inserting data into : silver.erp_loc_a101 ';
+		SET @start_time = GETDATE();
 		INSERT INTO silver.erp_loc_a101 (CID, CNTRY)
 		SELECT 
 		REPLACE(CID, '-', '') AS CID,
