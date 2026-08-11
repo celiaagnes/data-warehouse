@@ -2,7 +2,7 @@
 ======================================================================================================================================
 Create a view for sales in the gold layer.
 
-Prerequisites : Having exucuted the files load-gold-products and load-gold-customers
+Prerequisites : Having exucuted the files load-gold-products.sql and load-gold-customers.sql
 ======================================================================================================================================
 */
 
