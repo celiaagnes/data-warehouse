@@ -4,7 +4,7 @@
   <p align="center">
     Building a data warehouse using SQL Server, using ETL process, data modeling and analytics for business usecases.
     <br />
-    <a href="https://github.com/celiaagnes/data-warehouse/documents"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/celiaagnes/data-warehouse/tree/main/documents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/celiaagnes/data-warehouse/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
