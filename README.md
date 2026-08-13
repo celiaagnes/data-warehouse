@@ -1,4 +1,5 @@
 # data-warehouse
+
 <h3 align="center">Data Warehouse</h3>
 
   <p align="center">
@@ -11,41 +12,65 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#data-architecture">Data Architecture</a>
+    </li>
+    <li>
+      <a href="#project-overview">Project Overview</a>
+    </li>
+    <li>
+      <a href="#tools-used">Tools Used</a>
+    </li>
+    <li>
+      <a href="#project-requirements">Project Requirements</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li>
+          <a href="#building-the-data-warehouse-data-engineering">
+            Building the Data Warehouse (Data Engineering)
+          </a>
+          <ul>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#specifications">Specifications</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#bi-analytics--reporting-data-analysis">
+            BI: Analytics & Reporting (Data Analysis)
+          </a>
+          <ul>
+            <li><a href="#objective-1">Objective</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#repository-structure">Repository Structure</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#license">License</a>
+    </li>
+    <li>
+      <a href="#about-me">About Me</a>
+    </li>
+    <li>
+      <a href="#acknowledgment">Acknowledgment</a>
+    </li>
   </ol>
 </details>
 
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 
+Welcome to the **Data Warehouse and Analytics Project** repository!
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
-##  Data Architecture
+
+## Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](documents/architecture-of-datawarehouse.png)
@@ -55,6 +80,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
+
 ## Project Overview
 
 This project involves:
@@ -65,22 +91,24 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+
+* SQL Development
+* Data Architect
+* Data Engineering
+* ETL Pipeline Developer
+* Data Modeling
+* Data Analytics
 
 ---
 
-## Tools used:
+## Tools Used
 
-- **SQL Server Express** for hosting the database
-- **SQL Server Management Studio** for managing and interacting with the database
-- **DrawIO** for designing data architecture, models, flows, and diagrams.
-- **Notion** for project management and organization.
-- **Visual Studio Code** for writing document in markdown.
+* **SQL Server Express** for hosting the database
+* **SQL Server Management Studio** for managing and interacting with the database
+* **DrawIO** for designing data architecture, models, flows, and diagrams.
+* **Notion** for project management and organization.
+* **Visual Studio Code** for writing document in markdown.
+
 ---
 
 ## Project Requirements
@@ -88,28 +116,33 @@ This repository is an excellent resource for professionals and students looking 
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
+
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+* **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+* **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+* **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+* **Scope**: Focus on the latest dataset only; historization of data is not required.
+* **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
 
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+Develop SQL-based analytics to deliver detailed insights into:
+
+* **Customer Behavior**
+* **Product Performance**
+* **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ## Repository Structure
+
 ```
 data-warehouse-project/
 │
@@ -133,18 +166,18 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 ```
----
 
+---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share the project with proper attribution.
 
 ## About Me
 
 Hi, my name is **Célia AGNES**, I am a computer science student in the unversity technical institute of Bordeaux in France. My goal is to work in database in the future.
-Feel free to connect with me on linkedin:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/c%C3%A9lia-agnes-0389b3362/)
+Feel free to connect with me on Linkedin:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/c%C3%A9lia-agnes-0389b3362/)
 
 ## Acknowledgment
 
